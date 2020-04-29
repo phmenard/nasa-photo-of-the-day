@@ -1,3 +1,7 @@
-.container {
-    background-color:  blue;
+.dataContainer {
+    display: flex;
+justify-content: space-evenly;
+align-items: center;;
+background-color:  blue;
+height: 75px;
 }

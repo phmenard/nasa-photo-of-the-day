@@ -1,7 +1,8 @@
 import React, {useState} from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './components/nav/NavBar';
-import MainContent from './components/content/MainContent';
+import MainContent from './components/content/main_content/MainContent';
+import Footer from './components/footer/Footer';
 import "./App.css";
 
 
@@ -11,6 +12,7 @@ function App() {
     <div>
       <NavBar />
       <MainContent />
+      <Footer />
       
     </div>
   );

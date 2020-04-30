@@ -1,24 +1,18 @@
 import React, {useState} from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import NavBar from './components/nav/NavBar';
+import MainContent from './components/content/MainContent';
 import "./App.css";
-import HeaderContainer from "./components/HeaderContainter/HeaderContainer";
-import DataContainer from "./components/DataContainer/DataConainer";
-import FooterContainer from "./components/FooterContainer/Footer";
+
 
 function App() {
   
-  const [appDate, setAppDate] = useState(0);
-
   return (
-    <div className="App">
-      <HeaderContainer />
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun <span role="img" aria-label='go!'>🚀</span>!
-      </p>
-    <DataContainer />
-    <FooterContainer />
+    <div>
+      <NavBar />
+      <MainContent />
+      
     </div>
   );
 }
-
 export default App;

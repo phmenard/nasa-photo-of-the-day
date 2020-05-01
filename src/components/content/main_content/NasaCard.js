@@ -40,7 +40,7 @@ const Example = (props) => {
                         /* PROBLEMS ****/
                         //onSelect={date => setStartDate(date)}
                         onChange={date => props.formatDate(date)}
-                        //onChange={date => props.formatDate(date)}
+                        //onChange={date => setStartDate(date)}
                       
                     /></CardSubtitle>
                     {/*<CardText className='card'>{props.nasaPics.explanation}</CardText>*/}

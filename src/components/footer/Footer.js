@@ -22,8 +22,8 @@ function Footer() {
     return (
         <header>
             <div>
-                <Navbar color="light" light expand="md">
-                    <NavbarBrand href="/">Paul Menard</NavbarBrand>
+                <Navbar color="dark" light expand="md">
+                    <NavbarBrand href="/"><p className='footer'>Paul Menard</p></NavbarBrand>
                     
 
                 </Navbar>

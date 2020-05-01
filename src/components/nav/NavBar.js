@@ -19,8 +19,8 @@ function NavBar() {
     return (
         <header>
             <div>
-                <Navbar color="light" light expand="md">
-                    <NavbarBrand href="/">Nasa Image of The Day</NavbarBrand>
+                <Navbar color="dark" light expand="md">
+                    <NavbarBrand href="/"><p className='brand'>Nasa Image of The Day</p></NavbarBrand>
                     <NavbarToggler onClick={toggle} />
                     <Collapse isOpen={isOpen} navbar>
                         

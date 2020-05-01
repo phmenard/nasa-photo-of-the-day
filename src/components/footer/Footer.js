@@ -23,17 +23,8 @@ function Footer() {
         <header>
             <div>
                 <Navbar color="light" light expand="md">
-                    <NavbarBrand href="/">reactstrap</NavbarBrand>
-                    <Nav className="mr-auto" navbar>
-                    <NavItem>
-                        <NavLink href="/components/">Components</NavLink>
-                    </NavItem>
-                    <NavItem>
-                        <NavLink href="/components/">Components</NavLink>
-                    </NavItem>
-
-                    <NavbarText>Hello !!!s</NavbarText>
-                    </Nav>
+                    <NavbarBrand href="/">Paul Menard</NavbarBrand>
+                    
 
                 </Navbar>
             </div>

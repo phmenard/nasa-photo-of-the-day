@@ -53,8 +53,7 @@ function MainContent() {
         background-color: #6c757d;
         display: flex;
         justify-content: center;
-        
-    
+       
     `;   
 
     

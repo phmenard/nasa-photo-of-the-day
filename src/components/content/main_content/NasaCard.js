@@ -10,7 +10,7 @@ import {
     CardTitle, CardSubtitle, Button
 } from 'reactstrap';
 
-const Example = (props) => {
+const NasaCard = (props) => {
 
     const [startDate, setStartDate] = useState(new Date());
 
@@ -53,6 +53,6 @@ const Example = (props) => {
     );
 };
 
-export default Example;
+export default NasaCard;
 
 

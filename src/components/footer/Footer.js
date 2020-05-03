@@ -24,8 +24,6 @@ function Footer() {
             <div>
                 <Navbar color="dark" light expand="md">
                     <NavbarBrand href="/"><p className='footer'>© 2020 Paul Menard</p></NavbarBrand>
-                    
-
                 </Navbar>
             </div>
         </header>
